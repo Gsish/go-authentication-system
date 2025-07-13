@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// Initialize MongoDB connection - change URI if needed
-	models.InitMongo("mongodb+srv://niranjan:nvs1234@niranjan.tji0w2c.mongodb.net/")
+	models.InitMongo("mong url")
 
 	r := gin.Default()
 
